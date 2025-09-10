@@ -3,3 +3,16 @@ Major Learning From This book is
 2: Map Reduce Framework 
 3: Shuffle Opearation 
 3: 
+
+
+Error: Unable to push code with git push command 
+
+reason : The ssh key was not set so was asking for password. No need to set PAT key just that SSH Key needs to be added in the profile 
+.Also something was not right cause the push was not happening due to https connection . SSH connection change solved it 
+
+Solution :
+
+1: Change connection to SSH.
+2: Add key to the github account.
+
+
